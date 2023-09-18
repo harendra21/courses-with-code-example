@@ -1,0 +1,37 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: '/'
+    weight: 10
+
+  - name: Courses
+    weight: 20
+    identifier: courses
+  
+  - name: React Js
+    PageRef: course/react-js/_index.md
+    weight: 10
+    parent: courses
+
+  
+  - name: Blogs
+    identifier: blogs
+    weight: 30
+
+  - name: Golang
+    url: https://golang.withcodeexample.com
+    weight: 10
+    parent: blogs
+
+  - name: Javascript
+    url: https://javascript.withcodeexample.com
+    weight: 20
+    parent: blogs
+  
+  - name: Contact
+    PageRef: contact/index.md
+    weight: 60
