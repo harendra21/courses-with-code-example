@@ -32,6 +32,6 @@ main:
     weight: 20
     parent: blogs
   
-  - name: Contact
-    PageRef: contact/index.md
-    weight: 60
+  # - name: Contact
+  #   PageRef: contact/index.md
+  #   weight: 60

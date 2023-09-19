@@ -19,7 +19,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'A highly-customizable Hugo learning theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    twitter: 'harendraverma2'
   analytics:
     google_analytics: 'G-GQKKYY4MGH'
     baidu_tongji: ''
@@ -43,14 +43,14 @@ header:
 
 # Site footer
 
-# footer:
-#   copyright:
-#     notice: '© {year} Me. This work is licensed under {license}'
-#     license:
-#       enable: true
-#       allow_derivatives: false
-#       share_alike: true
-#       allow_commercial: false
+footer:
+  copyright:
+    notice: '© {year}. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
 
@@ -69,9 +69,9 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/wowchemy/starter-hugo-online-course'
+    url: 'https://github.com/harendra21/courses-with-code-example'
     content_dir: content
-    branch: main
+    branch: master
   comment:
     provider: ''
     disqus:
