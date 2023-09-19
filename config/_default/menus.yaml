@@ -16,8 +16,7 @@ main:
     PageRef: course/react-js/_index.md
     weight: 10
     parent: courses
-
-  
+    
   - name: Blogs
     identifier: blogs
     weight: 30
@@ -31,6 +30,10 @@ main:
     url: https://javascript.withcodeexample.com
     weight: 20
     parent: blogs
+
+  - name: Discord
+    url: https://discord.gg/hS2EqYqM
+    weight: 100
   
   # - name: Contact
   #   PageRef: contact/index.md
