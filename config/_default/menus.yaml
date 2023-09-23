@@ -10,26 +10,15 @@ main:
 
   - name: Courses
     weight: 20
-    identifier: courses
-  
-  - name: React Js
-    PageRef: course/react-js/_index.md
-    weight: 10
-    parent: courses
-    
-  - name: Blogs
-    identifier: blogs
-    weight: 30
+    url: '/course'
 
   - name: Golang
     url: https://golang.withcodeexample.com
-    weight: 10
-    parent: blogs
+    weight: 30
 
   - name: Javascript
     url: https://javascript.withcodeexample.com
-    weight: 20
-    parent: blogs
+    weight: 40
 
   - name: Discord
     url: https://discord.gg/hS2EqYqM
