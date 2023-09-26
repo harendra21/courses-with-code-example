@@ -21,11 +21,3 @@ type: book
 
 {{< mention "admin" >}} -->
 
-## FAQs
-
-
-Here are some frequently asked questions (FAQ) that people often have before learning React.js:
-
-{{< spoiler text="What is React.js?" >}}
-React.js, commonly referred to as React, is a JavaScript library for building user interfaces. It's maintained by Facebook and a community of developers. React allows you to create interactive and reusable UI components for web applications.
-{{< /spoiler >}}
